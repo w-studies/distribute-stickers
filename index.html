@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="logger"></div>
+    <div class="distribution-calc-wrapper">
+      <h1>Simule</h1>
+      <small>Insira abaixo</small>
+      <div class="form-wrapper">
+        <div>
+          <label>Altura <small>(mm)</small></label>
+          <input type="number" name="altura" step="1" min="1" value="50">
+        </div>
+        <div>
+          <label>Largura <small>(mm)</small></label>
+          <input type="number" name="largura" step="1" min="1" value="50">
+        </div>
+        <div>
+          <label>Quantidade</label>
+          <input type="number" name="quantidade" step="1" min="1" value="140">
+        </div>
+        <div>
+          <label>Margem <small>(mm)</small></label>
+          <input type="number" name="margem" step="1" min="0" max='100' value="5">
+        </div>
+      </div>
+      <div class="messenger"></div>
+      <div class="stage"></div>
+    </div>
+  </main>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
