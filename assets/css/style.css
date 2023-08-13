@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  max-width: 680px;
+  max-width: 540px;
   border: thin solid #ccc;
   margin: 0 auto;
   position: relative;
@@ -50,7 +50,7 @@ main,
 .stage {
   width: calc(210mm - 2 * var(--margin));
   height: calc(297mm - 2 * var(--margin));
-  transform: scale(0.67) translateX(-50%);
+  transform: scale(0.675) translateX(-50%);
   transform-origin: top left;
   position: absolute;
   top: 100%;
@@ -109,5 +109,5 @@ input {
   left: 100%;
   top: 0;
   border: thin solid red;
-  width: 100%;
+  width: 50%;
 }

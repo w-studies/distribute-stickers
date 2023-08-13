@@ -50,7 +50,7 @@ const doTheMagic = () => {
 
   stage.innerHTML = ''
   stage.style.setProperty('--margin', `${margem}mm`)
-  stage.style.setProperty('top', `calc(100% + ${margem / 1.5}mm)`)
+  stage.style.setProperty('top', `calc(100% + ${margem / 1.475}mm)`)
 
   const maxItems = quantidade > maxItemsPerPage ? maxItemsPerPage : quantidade
 
@@ -66,7 +66,7 @@ const doTheMagic = () => {
     Quantidade máxima de adesivos por folha: <span>${maxItemsPerPage}</span>`
 
   document.querySelector('.logger').innerHTML = JSON.stringify(
-    { adesivo, page, quantidadeLargura: divisaoAlturas, quantidadeAltura: divisaoAlturas },
+    { adesivo, page, quantidadeLargura: divisaoLarguras, quantidadeAltura: divisaoAlturas },
     null,
     1
   )
